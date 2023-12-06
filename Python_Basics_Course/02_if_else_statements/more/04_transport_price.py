@@ -1,13 +1,13 @@
 # In this exercise, important is arrangement of the logic!
 
-#From a vineyard of X square meters, 40% of the harvest 
-#is set aside for wine production. Y kilograms of grapes 
-#are produced from 1 square meter of vineyard. 
-#For 1 litre of wine 2,5 kg of grapes are needed. 
-#The desired quantity of wine to sell is Z litres.
-#Write a program that calculates how much wine can be produced 
-#and whether this quantity is sufficient. If it is enough, 
-#the remainder is split equally among the workers in the vineyard.
+#A student has to travel n kilometres. He has a choice of three modes of transport:
+#- Taxi. Start fare: 0.70 BGN. Daily fare: 0.90 BGN / km. Night fare: 0.90 / km.
+#- Bus. Day/night fare: BGN 0.09 per km. / km. Can be used for distances of minimum 20 km.
+#- Train. Day/night fare: BGN 0.06 per km. / km. Can be used for distances of minimum 100 km.
+#Write a program that enters the number of kilometers n and the period of the day 
+#(day or night) and calculates the price of the cheapest transport.
+#Output: print on the console the lowest price for the specified read distance,
+# formatted to the second digit after the decimal separator.
 
 distance = int(input())
 period = input()
